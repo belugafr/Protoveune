@@ -1,0 +1,25 @@
+name: Protoveune
+version: '${project.version}'
+description: Crée par NanaCoquette pour le serveur de Schakavun.
+author: NanaCoquette
+main: org.nanacoquette.protoveune.Main
+api-version: 1.20
+commands:
+  protoswap:
+    description: Lance une attaque informatique par Protovun
+    usage: /protoswap
+    permission: protoveune.cmds.protoswap
+
+  protoboss:
+    description: Invoque un boss à combattre
+    usage: /protoboss
+    permission: protoveune.cmds.protoboss
+
+permissions:
+  protoveune.cmds.protoswap:
+    description: Permet d'utiliser la commande protoswap
+    default: op
+
+  protoveune.cmds.protoboss:
+    description: Permet d'utiliser la commande protoboss
+    default: op
